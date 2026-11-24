@@ -1,0 +1,49 @@
+# Data: never commit raw or large data; document sources and download steps instead
+data/
+*.nc
+*.nc4
+*.zarr/
+*.tif
+*.tiff
+*.h5
+*.hdf
+*.grib
+*.gpkg
+*.parquet
+
+# Results that can be regenerated
+output/
+results/
+
+# Credentials and local settings
+.env
+*.key
+secrets*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Julia (keep Project.toml and Manifest.toml)
+*.jl.cov
+*.jl.mem
+
+# GAMS
+*.gdx
+*.lst
+*.log
+225*/
+
+# macOS and editors
+.DS_Store
+.vscode/
+*~
